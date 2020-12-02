@@ -1,0 +1,14 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:gold;
+    font-weight: 800;
+}
+
+.main{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+
+

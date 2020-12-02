@@ -1,0 +1,17 @@
+const test = (req, res, db) => {
+    
+    var x = db('Ratings').where('RatedUserID', '=', 16).avg('Rating')
+    
+    db('Users')
+    .where('UserID', '=', 16)
+        .update({
+            UserRating: x
+        })
+        .then(Rating =>{
+            res.json(Rating);
+             })
+}
+
+module.exports = {
+    test
+}

@@ -1,0 +1,78 @@
+.flex-container{
+    display: flex;
+    background-color: peachpuff;
+    border: black;
+    border-style: solid;
+    margin: 5px auto 0 auto;
+    align-items: center;
+    justify-content: left;
+    font-size: 1.6em;
+    font-weight: 700;
+    width:fit-content;
+}
+
+.header-flex-container{
+    display: flex;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    margin: 5px auto -15px auto;
+    align-items: center;
+    justify-content: left;
+    font-size: 1.6em;
+    font-weight: 700;
+    width:fit-content;
+}
+
+.listp{
+    
+    margin-left: 50px;
+    display:block;
+    align-items: center;
+}
+
+.name{
+width: 12em;
+
+}
+.slot{
+    width: 3.5em;
+}
+.type{
+    width: 3.5em;
+}
+.level{
+    width: 2em;
+}
+
+.container{
+    flex-direction: row;
+    background-color: peachpuff;
+    border: black;
+    border-style: solid;
+    font-size: 2rem;
+    max-width: 12em; 
+    margin:auto;
+}
+
+.img {
+    align-items: center;
+    margin-left: 6em
+    
+}
+
+.itemLogo{
+    width: 70px;
+    height: auto;
+    text-align: left;
+}
+
+.goldLogo{
+    width: 40px;
+    height: auto;
+}
+
+.crownLogo{
+    width: 40px;
+    height: auto;
+}
+
